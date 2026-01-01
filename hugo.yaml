@@ -1,0 +1,40 @@
+title: Cloud Native Groningen
+baseURL: https://cloudnativegroningen.nl/
+
+module:
+  imports:
+  - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: Community →
+      url: "https://community.cncf.io/cloud-native-groningen/"
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/cloud-native-groningen/"
+      params:
+        icon: github
+    - name: LinkedIn
+      weight: 5
+      url: "https://www.linkedin.com/company/cloud-native-groningen/"
+      params:
+        icon: linkedin
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  theme:
+    default: system
+    displayToggle: true
+  footer:
+    displayPoweredBy: false
+    displayCopyright: true
